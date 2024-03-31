@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    padding: 10px;
+    
+}
+.glava{
+    background-color: rgb(102, 219, 171);
+    width: 98%;
+    margin: 10px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas: 
+    "gap gap1 gap1 gap2"
+    "gap gap3 gap4 gap5"
+    "gap gap6 gap7 gap5" 
+    ;
+    
+}
+.gap{
+    background-color: rgb(42, 165, 58);
+    
+}
+.gap1{
+    background-color: rgb(42, 165, 58);
+}
+.gap2{
+    background-color: rgb(255, 2, 2);
+}
+.gap3{
+    background-color: rgb(255, 251, 0);
+}
+.gap4{
+    background-color: rgb(255, 0, 0);
+}
+.gap5{
+    background-color: rgb(42, 165, 58);
+}
+.gap6{
+    background-color: rgb(255, 0, 0);
+}
+.gap7{
+    background-color: rgb(255, 251, 0);
+}
+
+.gap {
+    grid-area: gap;
+}
+.gap1 {
+    grid-area: gap1;
+}
+.gap2 {
+    grid-area: gap2;
+}
+.gap3 {
+    grid-area: gap3;
+}
+.gap4 {
+    grid-area: gap4;
+}
+.gap5 {
+    grid-area: gap5;
+}
+.gap6 {
+    grid-area: gap6;
+}
+.gap7{
+    grid-area: gap7;
+}
